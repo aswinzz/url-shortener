@@ -128,3 +128,5 @@ STATIC_URL = '/static/'
 #         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
 #     ]
 # }
+
+BASE_URL = 'http://localhost:8000'

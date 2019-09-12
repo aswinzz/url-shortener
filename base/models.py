@@ -7,3 +7,6 @@ class URL(models.Model):
     clicks=models.IntegerField(default=0)
     created=models.DateTimeField(auto_now=True,blank=False,null=False)
 
+    def __unicode__(self):
+        return self.short
+
